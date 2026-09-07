@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- This meta tag strictly locks the screen size so the patient cannot accidentally zoom in or scroll around while panicking -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <title>Emergency Lifeline</title>
+    
+    <style>
+        body {
+            /* Black background prevents glare before the breathing light starts */
+            background-color: #000; 
+            color: white;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1 id="status">System Ready</h1>
+
+    <script>
+        // We will write the JavaScript for GPS and AWS triggers here
+        console.log("Waiting for hardware trigger...");
+    </script>
+</body>
+</html>
